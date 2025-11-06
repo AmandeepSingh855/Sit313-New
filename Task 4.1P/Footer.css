@@ -1,0 +1,90 @@
+/* ===== Footer.css ===== */
+
+.footer {
+  background-color: #2b7a78; /* teal color */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Subscribe section */
+.subscribe {
+  background-color: #ddd;
+  color: black;
+  padding: 10px 0;
+}
+
+.subscribe p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.subscribe form {
+  display: inline-block;
+}
+
+.subscribe input {
+  padding: 5px 10px;
+  border: 1px solid #333;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.subscribe button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.subscribe button:hover {
+  background-color: #555;
+}
+
+/* Links layout */
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.links h4 {
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+.links p {
+  margin: 4px 0;
+}
+
+/* Social media icons */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 22px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+  transform: scale(1.1);
+}
+
+/* Footer bottom text */
+.copyright {
+  font-size: 14px;
+  margin-top: 10px;
+  color: black;
+  background-color: #ddd;
+  padding: 5px 0;
+}
