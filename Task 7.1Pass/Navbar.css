@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar-search {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+}
